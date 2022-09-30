@@ -30,3 +30,4 @@ FOLDER STRUCTURE:
 
 3) requirements.txt---> All the packages and library required for this project is  be mentioned here.
 
+4) setup.py --> used to install requirements.txt file 
