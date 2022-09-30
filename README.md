@@ -20,3 +20,14 @@ The main objective here is -
 product.
 2. What people do: which reveals what people are doing rather than what they are
 saying about your product.
+
+
+FOLDER STRUCTURE:
+
+1) .github/workflows/main.yamnl --> created to define the workflows i.e this workflow trigger the deployment of this project on Heroku.\
+
+2) Dockerfile --> Docker is internally used to deploy this project to heroku, so this file should be there to define the process of docker . Without this we will not be able to deploy this project to heroku
+
+3) requirements.txt---> All the packages and library required for this project is  be mentioned here.
+
+4) 
