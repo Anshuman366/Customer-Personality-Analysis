@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route("/",methods=["GET",'POST'])
 def fun():
-    return "hello world"
+    return "HELLO LEARNERS . COMPLETE CICD PIPELINE HAS BEEN DEVELOPED"
     
 if __name__=="__main__":
     app.run(debug=True)
